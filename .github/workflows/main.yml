@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Say Hello
-        run: echo "Hello!"
+        run: exit 1
 
   goodbye:
     needs: hello
