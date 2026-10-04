@@ -10,3 +10,6 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello! I am learning GitHub Actions."
+
+      - name: Say Goodbye
+        run: echo "Goodbye!"
